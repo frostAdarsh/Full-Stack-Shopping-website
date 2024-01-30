@@ -13,7 +13,7 @@ app.use(cors());
 
 
 //Database Connection with MongoDB
-mongoose.connect("mongodb+srv://adarshmani955:7777@cluster0.gli7l3q.mongodb.net/e-commerce")
+mongoose.connect("mongodb+srv: Enter your link")
 //API Creation
 app.get('/',(req,res)=>{
      res.send('Express App is Running')
